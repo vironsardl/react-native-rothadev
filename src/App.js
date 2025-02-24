@@ -2,14 +2,13 @@ import React from 'react';
 import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
 import Layout from './components/Layout';
 import Login from './components/Screens/LoginScreen';
-import LoginTwoScreen from './components/Screens/LoginTwoScreen';
+import LoginThreeScreen from './components/Screens/LoginThreeScreen';
 
 const App = () => {
   return (
-    // <SafeAreaView>
-        <LoginTwoScreen />
-        // {/* <Layout /> */}
-    // </SafeAreaView>
+    <SafeAreaView>
+        <LoginThreeScreen />
+    </SafeAreaView>
   );
 };
 
